@@ -141,7 +141,7 @@
   color: var(--color-grey);
 }
 .custom-button {
-  padding: 10px 80px;
+  padding: 10px 95px;
   margin: 4px;
   border-radius: 4px;
   border: 0px var(--color-white);
@@ -173,14 +173,19 @@
 .text-align-left {
   text-align: left;
 }
-a {
-  text-decoration: underline;
-  color: var(--color-dark);
-}
+
 .range-legend {
   color: var(--color-legend-range);
 }
 .flex-wrap-text {
   flex-wrap: wrap;
   max-width: 156px;
+}
+.button-solid {
+  border: none;
+  background-color: var(--color-white);
+  text-decoration: underline;
+}
+.hide-content{
+  display: none
 }
